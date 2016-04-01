@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.EntityFrameworkAuditor.Data", "Dibware.EntityFrameworkAuditor.Data\Dibware.EntityFrameworkAuditor.Data.csproj", "{B36C83AB-A599-4B3D-85CF-B944C0E89822}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Dibware.EntityFrameworkAuditor.Database", "Dibware.EntityFrameworkAuditor.Database\Dibware.EntityFrameworkAuditor.Database.sqlproj", "{AED5522C-393F-4DA1-9A07-17D19D797AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.EntityFrameworkAuditor.IntegrationTests", "Dibware.EntityFrameworkAuditor.IntegrationTests\Dibware.EntityFrameworkAuditor.IntegrationTests.csproj", "{B081926A-26C6-48AD-896E-C9B4D803317F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36C83AB-A599-4B3D-85CF-B944C0E89822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36C83AB-A599-4B3D-85CF-B944C0E89822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36C83AB-A599-4B3D-85CF-B944C0E89822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36C83AB-A599-4B3D-85CF-B944C0E89822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED5522C-393F-4DA1-9A07-17D19D797AEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B081926A-26C6-48AD-896E-C9B4D803317F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B081926A-26C6-48AD-896E-C9B4D803317F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B081926A-26C6-48AD-896E-C9B4D803317F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B081926A-26C6-48AD-896E-C9B4D803317F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
